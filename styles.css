@@ -78,11 +78,14 @@ p {
 }
 
 p.i {
-    padding-top: 8px;
+    padding-top: 16px;
 }
 
 .fullSizeImage {
     height: 100vh;
+}
+
+.pinRight {
     position: -webkit-sticky;
     position: fixed;
     top: 0;
@@ -119,6 +122,17 @@ p.i {
     display: flex;
     padding-bottom: 32px;
     align-items: center;
+}
+
+.about {
+    padding-top: 32px;
+    display: none;
+}
+
+.about li {
+    display: block;
+    padding-bottom: 16px;
+    line-height: 140%;
 }
 
 .people {
