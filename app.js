@@ -1,4 +1,4 @@
-var queryURL = "https://api.myjson.com/bins/16l34m";
+var queryURL = "https://api.myjson.com/bins/17g5ye";
 var jsonTree;
 
 $.ajax({
@@ -6,27 +6,46 @@ $.ajax({
     method: "GET"
 }).done(function (response) {
     var jsonTree = response;
+
     var officeName = []
     var officeClass = []
-    for (var i in jsonTree.offices) {
+
+
+    for (let i in jsonTree.offices) {
         officeName.push(jsonTree.offices[i].name);
         officeClass.push(jsonTree.offices[i].class);
     }
-        var locations = $(".");
-        var div = $("<div>");
-        div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns " + officeClass[0]);
-        var link = $("<a>");
-        var h2 = $("<h2>").html(officeName[0]);
+
+    for (var i = 0; i < officeName.length; i++) {
+        let locations = $(".locations");
+        let div = $("<div>");
+        div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns fullSizeImage slick-slide " + officeClass[i]);
+        let link = $("<a>");
+        let h2 = $("<h2>").html(officeName[i]);
         h2.addClass("f2");
-        var span = $("<span>");
+        let span = $("<span>");
         span.addClass("bar little-bar")
         link.append(h2);
         div.append(link);
         div.append(span);
         locations.append(div);
+
+    }
+
+
+
+
+    runslick(() => {
+        $(function () {
+            $('.locations').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                cssEase: 'ease-in-out'
+            });
+        })
+            ;
+    })
+
 });
 
-{/* <div class="fl w-third mw5 mw7-ns center pa3 ph5-ns chicago">
-            <a><h2 class="f2">Chicago</h2></a>
-            <span class="bar little-bar"></span>
-</div> */}
