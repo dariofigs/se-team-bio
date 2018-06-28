@@ -126,7 +126,19 @@ p {
 .people li {
     display: flex;
     padding-bottom: 32px;
-    /* align-items: center; */
+    cursor: pointer;
+}
+
+.people li:hover span {
+    width: 100px;
+}
+
+.people li:hover {
+    opacity: .7;
+}
+
+.people li:hover h3 {
+    color: rgba(0, 0, 0, .8);
 }
 
 .about {
