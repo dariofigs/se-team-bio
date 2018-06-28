@@ -116,6 +116,16 @@ p {
     background-size: cover;
 }
 
+.sanFrancisco, .chicago, .ghent {
+    background-size: 100% auto;
+    transition: background-size .5s;
+
+}
+
+.sanFrancisco:hover, .chicago:hover, .ghent:hover {
+    background-size: 110% auto;
+}
+
 .subtitle {
     display: inline-block;
     text-transform: uppercase;
