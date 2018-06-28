@@ -2,7 +2,7 @@
     "offices": {
         "chicago": {
             "name": "Chicago",
-            "imageURL": "FILEPATH",
+            "class": "chicago",
             "employees": [
                 {
                     "name": "James Kaikis",
@@ -101,9 +101,9 @@
                 }
             ]
         },
-        "sanfrancisco": {
-            "name": "San Francisco",
-            "imageURL": "FILEPATH",
+        "sanFrancisco": {
+            "name": "SF",
+            "class": "sanFrancisco",
             "employees": [
                 {
                     "name": "Elli Seo",
@@ -166,7 +166,7 @@
         },
         "ghent": {
             "name": "Ghent",
-            "imageURL": "/images/NAMEOFFILE",
+            "class":"ghent",
             "employees": [
                 {
                     "name": "",
