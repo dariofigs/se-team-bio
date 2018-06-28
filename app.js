@@ -12,21 +12,68 @@ $.ajax({
         officeName.push(jsonTree.offices[i].name);
         officeClass.push(jsonTree.offices[i].class);
     }
-        var locations = $(".locations");
-        var div = $("<div>");
-        div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns " + officeClass[0]);
-        var link = $("<a>");
-        var h2 = $("<h2>").html(officeName[0]);
-        h2.addClass("f2");
-        var span = $("<span>");
-        span.addClass("bar little-bar")
-        link.append(h2);
-        div.append(link);
-        div.append(span);
-        locations.append(div);
+    var locations = $(".locations");
+    var div = $("<div>");
+    div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns chicago fullSizeImage slick-slide " + officeClass[0]);
+    var link = $("<a>");
+    var h2 = $("<h2>").html(officeName[0]);
+    h2.addClass("f2");
+    var span = $("<span>");
+    span.addClass("bar little-bar")
+    link.append(h2);
+    div.append(link);
+    div.append(span);
+    locations.append(div);
+
+    var locations = $(".locations");
+    var div = $("<div>");
+    div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns chicago fullSizeImage slick-slide " + officeClass[0]);
+    var link = $("<a>");
+    var h2 = $("<h2>").html(officeName[0]);
+    h2.addClass("f2");
+    var span = $("<span>");
+    span.addClass("bar little-bar")
+    link.append(h2);
+    div.append(link);
+    div.append(span);
+    locations.append(div);
+
+    var locations = $(".locations");
+    var div = $("<div>");
+    div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns chicago fullSizeImage slick-slide " + officeClass[0]);
+    var link = $("<a>");
+    var h2 = $("<h2>").html(officeName[0]);
+    h2.addClass("f2");
+    var span = $("<span>");
+    span.addClass("bar little-bar")
+    link.append(h2);
+    div.append(link);
+    div.append(span);
+    locations.append(div);
+
+    var locations = $(".locations");
+    var div = $("<div>");
+    div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns chicago fullSizeImage slick-slide " + officeClass[0]);
+    var link = $("<a>");
+    var h2 = $("<h2>").html(officeName[0]);
+    h2.addClass("f2");
+    var span = $("<span>");
+    span.addClass("bar little-bar")
+    link.append(h2);
+    div.append(link);
+    div.append(span);
+    locations.append(div);
+
+    runslick(() =>{
+        $(function () {
+            $('.locations').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                cssEase: 'ease-in-out'
+            });
+        })
+    ;})
+
 });
 
-{/* <div class="fl w-third mw5 mw7-ns center pa3 ph5-ns chicago">
-            <a><h2 class="f2">Chicago</h2></a>
-            <span class="bar little-bar"></span>
-</div> */}
