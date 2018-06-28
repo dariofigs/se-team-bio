@@ -127,6 +127,7 @@ p {
     display: flex;
     padding-bottom: 32px;
     cursor: pointer;
+    opacity: .7;
 }
 
 .people li:hover span {
@@ -134,7 +135,7 @@ p {
 }
 
 .people li:hover {
-    opacity: .7;
+    opacity: 1;
 }
 
 .people li:hover h3 {
