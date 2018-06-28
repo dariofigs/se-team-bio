@@ -20,6 +20,10 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-weight: 600;
+}
+
 body {
     min-height: 100vh;
     position: relative;
@@ -34,6 +38,10 @@ body {
 .slick-next {
     right: 24px !important;
     top: 55% !important;
+}
+
+.slick-list, .slick-track {
+    height: 100vh;
 }
 
 main.homepage * {
@@ -69,8 +77,19 @@ p {
     line-height: 145%;
 }
 
-div {
+p.i {
+    padding-top: 16px;
+}
+
+.fullSizeImage {
     height: 100vh;
+}
+
+.pinRight {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .showpad-team {
@@ -99,7 +118,42 @@ div {
     font-family: 'Montserrat', sans-serif;
 }
 
-main {
+.people li {
+    display: flex;
+    padding-bottom: 32px;
+    align-items: center;
+}
+
+.about {
+    padding-top: 32px;
+    display: none;
+}
+
+.about li {
+    display: block;
+    padding-bottom: 16px;
+    line-height: 140%;
+}
+
+.people {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.people p {
+    margin: 0;
+}
+
+.people li div {
+    margin-left: 32px;
+}
+
+.people img {
+    max-width: 120px;
+    height: 120px;
+}
+
+main.homepage {
     margin-top: 20vh;
 }
 
