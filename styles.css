@@ -23,6 +23,18 @@ h2 {
 
 body {
     min-height: 100vh;
+    position: relative;
+}
+
+.slick-prev {
+    left: 24px !important;
+    top: 55% !important;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 24px !important;
+    top: 55% !important;
 }
 
 main.homepage * {
