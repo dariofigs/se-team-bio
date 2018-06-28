@@ -12,7 +12,7 @@ $.ajax({
         officeName.push(jsonTree.offices[i].name);
         officeClass.push(jsonTree.offices[i].class);
     }
-        var locations = $(".locations");
+        var locations = $(".");
         var div = $("<div>");
         div.addClass("fl w-third mw5 mw7-ns center pa3 ph5-ns " + officeClass[0]);
         var link = $("<a>");

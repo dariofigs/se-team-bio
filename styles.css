@@ -1,6 +1,10 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,600|Source+Sans+Pro:400,400i,600,600i,700,700i');
 
+* {
+    transition: .2s ease-in-out;
+}
+
 html {
     font-family: 'Source Sans Pro';
 }
@@ -77,8 +81,9 @@ p {
     line-height: 145%;
 }
 
-p.i {
+.people p.i {
     padding-top: 16px;
+    margin-bottom: 32px;
 }
 
 .fullSizeImage {
@@ -121,11 +126,11 @@ p.i {
 .people li {
     display: flex;
     padding-bottom: 32px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .about {
-    padding-top: 32px;
+    margin-top: 32px;
     display: none;
 }
 
