@@ -30,23 +30,6 @@ $.ajax({
         div.append(link);
         div.append(span);
         locations.append(div);
-
     }
-
-
-
-
-    runslick(() => {
-        $(function () {
-            $('.locations').slick({
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                cssEase: 'ease-in-out'
-            });
-        })
-            ;
-    })
-
 });
 
