@@ -98,7 +98,8 @@ p {
 }
 
 .showpad-team {
-    background: url(images/showpad-team.jpg) no-repeat 40% 70% fixed;
+    background: url(images/showpad-team.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .sanFrancisco {
@@ -127,6 +128,7 @@ p {
     display: flex;
     padding-bottom: 32px;
     cursor: pointer;
+    opacity: .7;
 }
 
 .people li:hover span {
@@ -134,7 +136,7 @@ p {
 }
 
 .people li:hover {
-    opacity: .7;
+    opacity: 1;
 }
 
 .people li:hover h3 {
@@ -184,4 +186,16 @@ main.homepage {
     color: white;
     background: #00BB8C;
     font-weight: 500;
+}
+
+.cta:hover {
+    transform: translateY(-8px);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+
+.cta:active {
+    transform: scale(0.9);
+    transition: .2s ease-in-out;
 }
