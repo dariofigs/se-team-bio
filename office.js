@@ -1,4 +1,4 @@
-var queryURL = "https://api.myjson.com/bins/1hcv06";
+var queryURL = "https://api.myjson.com/bins/12at46";
 var jsonTree;
 var listQuestions
 var listOfQuestions = ["LinkedIn:","Hometown:","Birthday:","Favorite Movie:","Favorite Pastime:","Favorite Travel Destination:","Favorite 90's Jam:","If you were stranded on an island, what 2 things would you want with you?:","If you could be a sandwich, what sandwich would you be and why? (one sentence):","If you could be one person for an entire day (dead or alive), who would it be and why? (one sentence):","Do you have any skills or talents that most people don’t know about?:","What is one thing that annoys you the most?:","Fun Fact about yourself:"]
@@ -32,7 +32,8 @@ $.ajax({
     let li1 = $("<li>");
     let b1 = $("<b>").html(listOfQuestions[0]+"&nbsp;");
     li1.append(b1);
-    li1.append(officeEmployees[i].linkedin);
+    let aTag = $("<a>").html(officeEmployees[i].linkedin).attr("href","https://"+officeEmployees[i].linkedin).attr("target","_blank");
+    li1.append(aTag);
     let li2 = $("<li>");
     let b2 = $("<b>").html(listOfQuestions[1]+"&nbsp;");
     li2.append(b2);
