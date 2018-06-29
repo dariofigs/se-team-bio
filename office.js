@@ -14,6 +14,14 @@ $.ajax({
     officeEmployees = response.offices[keyWord].employees;
     console.log(officeEmployees);
 
+    if(officeEmployees.length == 0 ){
+        let people = $(".people");
+        let h4 = $("<h4>").html("Coming soon!");
+        people.append(h4)
+
+
+    }
+
     for(var i = 0;i<officeEmployees.length;i++){
     //DISPLAY FOR A PERSON
     let people = $(".people");
