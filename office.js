@@ -20,10 +20,12 @@ $.ajax({
 
     let outsideList = $("<li>");
     let img = $("<img>").attr("alt",officeEmployees[i].name);
+    img.attr("src","images/"+keyWord+"/"+officeEmployees[i].profile_pic+".jpg");
+
     let div = $("<div>");
     let h3 = $("<h3>").html(officeEmployees[i].name).addClass("f3");
     let span = $("<span>").addClass("bar little-bar");
-    let p = $("<p>").addClass("i").html(officeEmployees[i].fav_quote);
+    let p = $("<p>").addClass("i measure-wide").html(officeEmployees[i].fav_quote);
     let ul = $("<ul>").addClass("about");
 
     //about 
