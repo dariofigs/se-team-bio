@@ -101,8 +101,6 @@
                 }
             ]
         },
-        
-        
         "sanFrancisco": {
             "name": "SF",
             "class": "sanFrancisco",
@@ -168,7 +166,7 @@
         },
         "ghent": {
             "name": "Ghent",
-            "class":"ghent",
+            "class": "ghent",
             "employees": [
                 {
                     "name": "Netta Szabo",
@@ -229,7 +227,7 @@
                 },
                 {
                     "name": "Paul Batten",
-                    "profile_pic": "Paul-Batten",
+                    "profile_pic": "Paul_Batten",
                     "email": "paul.batten@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/paulbatten1/",
                     "hometown": "London",

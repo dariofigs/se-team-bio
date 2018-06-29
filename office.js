@@ -1,4 +1,4 @@
-var queryURL = "https://api.myjson.com/bins/1ez4l2";
+var queryURL = "https://api.myjson.com/bins/1hcv06";
 var jsonTree;
 var listQuestions
 var listOfQuestions = ["LinkedIn:","Hometown:","Birthday:","Favorite Movie:","Favorite Pastime:","Favorite Travel Destination:","Favorite 90's Jam:","If you were stranded on an island, what 2 things would you want with you?:","If you could be a sandwich, what sandwich would you be and why? (one sentence):","If you could be one person for an entire day (dead or alive), who would it be and why? (one sentence):","Do you have any skills or talents that most people don’t know about?:","What is one thing that annoys you the most?:","Fun Fact about yourself:"]
@@ -116,41 +116,4 @@ personDiv.click(function(event) {
     }
 })
 });
-
-
-
-
-
-
-   
-      
-   
-   
-
-
-
-
-/* <li>
-<img src="images/chicago/james.jpg" alt="James Kaikis">
-<div>
-    <h3 class="f3">Jimmy Kaikis</h3>
-    <span class="bar little-bar"></span>
-    <p class="i">“You play with the cards you're dealt.”</p>
-    <ul class="about">
-        <li><b>LinkedIn:&nbsp;</b>www.linkedin/com/in/jameskaikis</li>
-        <li><b>Hometown:&nbsp;</b>Pittsburgh, Pennsylvania</li>
-        <li><b>Birthday:&nbsp;</b>December 1st</li>
-        <li><b>Favorite Movie:&nbsp;</b>Inception</li>
-        <li><b>Favorite Pastime:&nbsp;</b>Ball is life</li>
-        <li><b>Favorite Travel Destination:&nbsp;</b>Japan! Specifically Tokyo</li>
-        <li><b>Favorite 90's Jam:&nbsp;</b>House of Pain - Jump Around </li>
-        <li><b>If you were stranded on an island, what 2 things would you want with you?:&nbsp;</b>My daughter and a baby doll</li>
-        <li><b>If you could be a sandwich, what sandwich would you be and why? (one sentence):&nbsp;</b>BLTA on sourdough loaf because it is so simple to make yet the an array of flavor.</li>
-        <li><b>If you could be one person for an entire day (dead or alive), who would it be and why? (one sentence):&nbsp;</b>Abe Lincoln because I want to know what it was like during the Civil War</li>
-        <li><b>Do you have any skills or talents that most people don’t know about?:&nbsp;</b>I was a Flag Football All-American (yes that exists) </li>
-        <li><b>What is one thing that annoys you the most?:&nbsp;</b>Bad Manners </li>
-        <li><b>Fun Fact about yourself:&nbsp;</b>I really love Space </li>
-    </ul>
-</div>
-</li> */
 
