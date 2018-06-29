@@ -117,6 +117,26 @@ p {
     background-size: cover;
 }
 
+.london {
+    background: url(images/locations/london.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.newYork {
+    background: url(images/locations/newYork.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.austin {
+    background: url(images/locations/austin.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.atlanta {
+    background: url(images/locations/atlanta.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 .subtitle {
     display: inline-block;
     text-transform: uppercase;
