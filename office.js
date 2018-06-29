@@ -1,4 +1,4 @@
-var queryURL = "https://api.myjson.com/bins/12at46";
+var queryURL = "https://api.myjson.com/bins/15zp2e";
 var jsonTree;
 var listQuestions
 var listOfQuestions = ["LinkedIn:","Hometown:","Birthday:","Favorite Movie:","Favorite Pastime:","Favorite Travel Destination:","Favorite 90's Jam:","If you were stranded on an island, what 2 things would you want with you?:","If you could be a sandwich, what sandwich would you be and why? (one sentence):","If you could be one person for an entire day (dead or alive), who would it be and why? (one sentence):","Do you have any skills or talents that most people don’t know about?:","What is one thing that annoys you the most?:","Fun Fact about yourself:"]
@@ -13,6 +13,14 @@ $.ajax({
 
     officeEmployees = response.offices[keyWord].employees;
     console.log(officeEmployees);
+
+    if(officeEmployees.length == 0 ){
+        let people = $(".people");
+        let h4 = $("<h4>").html("Coming soon!");
+        people.append(h4)
+
+
+    }
 
     for(var i = 0;i<officeEmployees.length;i++){
     //DISPLAY FOR A PERSON

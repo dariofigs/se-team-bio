@@ -302,6 +302,26 @@
                     "fun_fact": "My nickname is Schumi, even my wife and in-laws calls me that."
                 }
             ]
+        },
+        "atlanta": {
+            "name": "Atlanta",
+            "class": "atlanta",
+            "employees": []
+        },
+        "london": {
+            "name": "London",
+            "class": "london",
+            "employees": []
+        },
+        "newYork": {
+            "name": "New York",
+            "class": "newYork",
+            "employees": []
+        },
+        "austin": {
+            "name": "Austin",
+            "class": "austin",
+            "employees": []
         }
     }
 }
