@@ -11,7 +11,7 @@
 <body>
     <main class="fl w-70 center pa3 ph5-ns">
         <ul class="people">
-            <li>
+            <!-- <li>
                 <img src="images/chicago/james.jpg" alt="James Kaikis">
                 <div>
                     <h3 class="f3">Jimmy Kaikis</h3>
@@ -80,28 +80,14 @@
                     <span class="bar little-bar"></span>
                     <p class="i measure">“For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes”</p>
                 </div>
-            </li>
+            </li> -->
         </ul>
     </main>
-    <div id = "blah" class="fl w-30  fullSizeImage pinRight"></div>	
-
-    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-    <script>
-        let personDiv = $('.people li');
-
-        personDiv.click(function(event) {
-            if ($(event.target).is('li')) {
-                let aboutList = $(event.target).find( ".about" );
-                aboutList.slideToggle(600);
-            } else {
-                aboutList = $(event.target).parent().find( ".about" );
-                aboutList.slideToggle(600);
-            }
-        })
-    </script>
+    <div id = "officeImage" class="fl w-30  fullSizeImage pinRight"></div>	
 
     <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="office.js"></script>
+
 
 </body>
 </html>
