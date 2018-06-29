@@ -1,4 +1,4 @@
-var queryURL = "https://api.myjson.com/bins/neyzq";
+var queryURL = "https://api.myjson.com/bins/15zp2e";
 var jsonTree;
 
 $.ajax({
