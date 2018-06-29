@@ -71,6 +71,10 @@ main.homepage * {
     text-align: center;
 }
 
+.locations a {
+    text-decoration: none;
+}
+
 .locations h2 {
     color: white;
 }
