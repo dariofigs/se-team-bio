@@ -152,6 +152,7 @@ p {
     display: block;
     padding-bottom: 16px;
     line-height: 140%;
+    max-width: 500px;
 }
 
 .people {
