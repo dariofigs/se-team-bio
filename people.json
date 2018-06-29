@@ -6,7 +6,7 @@
             "employees": [
                 {
                     "name": "James Kaikis",
-                    "profile_pic": "FILEPATH",
+                    "profile_pic": "James_Kaikis",
                     "email": "james.kaikis@showpad.com",
                     "linkedin": "www.linkedin/com/in/jameskaikis",
                     "hometown": "Pittsburgh, Pennsylvania",
@@ -24,8 +24,8 @@
                     "fun_fact": "I really love Space "
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Ben Fleishman",
+                    "profile_pic": "Ben_Fleishman",
                     "email": "ben.fleishman@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/benjamin_fleishman_38b67641/",
                     "hometown": "Vernon Hills, IL",
@@ -43,8 +43,8 @@
                     "fun_fact": "When I was in a band we played Warped Tour."
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Dario Figueroa",
+                    "profile_pic": "Dario_Figueroa",
                     "email": "dario.figueroa@showpad.com",
                     "linkedin": "linkedin.com/in/dariofigs",
                     "hometown": "New Lenox",
@@ -62,8 +62,8 @@
                     "fun_fact": "i used to be on a 7yr track to get my doctorate in pharmaceutical sciences"
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Kyle Hall",
+                    "profile_pic": "Kyle_Hall",
                     "email": "kyle.hall@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/kyle_hall_201974150/",
                     "hometown": "Libertyville IL",
@@ -81,8 +81,8 @@
                     "fun_fact": "I almost landed on top of a live bear"
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Matthew Holmes",
+                    "profile_pic": "Matthew_Holmes",
                     "email": "matthew.holmes@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/matthew_holmes_1ab847165/",
                     "hometown": "St. Charles, IL",
@@ -109,7 +109,7 @@
             "employees": [
                 {
                     "name": "Elli Seo",
-                    "profile_pic": "FILEPATH",
+                    "profile_pic": "Elli_Seo",
                     "email": "elli.seo@showpad.com",
                     "linkedin": "www.linkedin.com/in/elliseo",
                     "hometown": "Martinez, Ca",
@@ -128,7 +128,7 @@
                 },
                 {
                     "name": "Aaromal Syam",
-                    "profile_pic": "FILEPATH",
+                    "profile_pic": "Aaromal_Syam",
                     "email": "aaromal.syam@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/aaromalsyam",
                     "hometown": "Thiruvananthapuram, Kerala, Indiaa",
@@ -146,8 +146,8 @@
                     "fun_fact": "I take a cold shower every morning, unless I'm late to work."
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Michael Garrido",
+                    "profile_pic": "Michael_Garrido",
                     "email": "michael.garrido@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/garridomichael/",
                     "hometown": "Daly City, CA",
@@ -171,8 +171,8 @@
             "class":"ghent",
             "employees": [
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Netta Szabo",
+                    "profile_pic": "Netta_Szabo",
                     "email": "netta.szabo@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/netta_szabo/",
                     "hometown": "Budapest, Hungary",
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "Bram Hornsby",
-                    "profile_pic": "",
+                    "profile_pic": "Bram_Hornsby",
                     "email": "bram.hornsby@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/bram_hornsby_b6555817/",
                     "hometown": "Ghent",
@@ -209,8 +209,8 @@
                     "fun_fact": "I'm waiting for my daughter to be born in about 2 months :)"
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Pieter Desaeger",
+                    "profile_pic": "Pieter_Desaeger",
                     "email": "pieter.desaeger@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/pieterdesaeger/",
                     "hometown": "Affligem",
@@ -228,8 +228,8 @@
                     "fun_fact": "I once managed a small scale organic farm"
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Paul Batten",
+                    "profile_pic": "Paul_Batten",
                     "email": "paul.batten@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/paulbatten1/",
                     "hometown": "London",
@@ -247,8 +247,8 @@
                     "fun_fact": "I was once London Tae Kwon Do champion"
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Koen Bogaert",
+                    "profile_pic": "Koen_Bogaert",
                     "email": "koen.bogaert@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/koenbogaert/",
                     "hometown": "Antwerp",
@@ -266,8 +266,8 @@
                     "fun_fact": "I owned, written, edited and distributed a newspaper at the age of 10."
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Lucie Debouver",
+                    "profile_pic": "Lucie_Debouver",
                     "email": "lucie.debouver@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/lucie_debouver/",
                     "hometown": "Oostduinkerke",
@@ -285,8 +285,8 @@
                     "fun_fact": "I lived in India for 6 months after I graduated form university"
                 },
                 {
-                    "name": "",
-                    "profile_pic": "",
+                    "name": "Frederik Demets",
+                    "profile_pic": "Frederik_Demets",
                     "email": "frederik.demets@showpad.com",
                     "linkedin": "https://www.linkedin.com/in/frederikdemets/",
                     "hometown": "Brugge",
