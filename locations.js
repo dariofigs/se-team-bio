@@ -38,10 +38,9 @@ $.ajax({
                 infinite: false,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                cssEase: 'ease-in-out'
+                cssEase: 'ease-in-out',
             });
-        })
-            ;
+        });
     })
 
 });

@@ -227,3 +227,15 @@ main.homepage {
     transition: .2s ease-in-out;
 }
 
+@media screen and (max-width: 670px) {
+    .locations h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .locations h2 {
+        font-size: 1.8rem;
+        margin-left: -16px;
+    }
+}
