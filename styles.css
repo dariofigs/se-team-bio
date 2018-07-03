@@ -227,6 +227,44 @@ main.homepage {
     transition: .2s ease-in-out;
 }
 
+.take-me-back:before, .take-me-back:after {
+    display: block;
+    content: "";
+    z-index: 3;
+}
+
+#locations .take-me-back:before, #locations .take-me-back:after {
+    background: #fff;
+}
+
+.take-me-back:before {
+    top: 40px;
+    left: 24px;
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    transition-property: transform;
+    border-radius: 4px;
+    background-color: #000;
+    transform: rotateZ(45deg);
+}
+
+.take-me-back:after {
+    top: 40px;
+    left: 24px;
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    transition-property: transform;
+    border-radius: 4px;
+    background-color: #000;
+    transform: rotateZ(-45deg);
+}
+
 @media screen and (max-width: 670px) {
     .locations h2 {
         font-size: 2rem;
