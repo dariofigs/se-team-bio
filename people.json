@@ -6,6 +6,7 @@
             "employees": [
                 {
                     "name": "James Kaikis",
+                    "personalityType":"The Commander (ENTJ-A)",
                     "profile_pic": "James_Kaikis",
                     "email": "james.kaikis@showpad.com",
                     "linkedin": "www.linkedin.com/in/jameskaikis",
@@ -25,6 +26,7 @@
                 },
                 {
                     "name": "Ben Fleishman",
+                    "personalityType":"The Protagonist (ENFJ-A)",
                     "profile_pic": "Ben_Fleishman",
                     "email": "ben.fleishman@showpad.com",
                     "linkedin": "www.linkedin.com/in/benjamin-fleishman-38b67641/",
@@ -44,6 +46,8 @@
                 },
                 {
                     "name": "Dario Figueroa",
+                    "personalityType":"The Architect (INTJ-T)",
+
                     "profile_pic": "Dario_Figueroa",
                     "email": "dario.figueroa@showpad.com",
                     "linkedin": "www.linkedin.com/in/dariofigs",
@@ -63,6 +67,8 @@
                 },
                 {
                     "name": "Kyle Hall",
+                    "personalityType":"The Commander (ENTJ-A)",
+
                     "profile_pic": "Kyle_Hall",
                     "email": "kyle.hall@showpad.com",
                     "linkedin": "www.linkedin.com/in/khall5",
@@ -82,6 +88,8 @@
                 },
                 {
                     "name": "Matthew Holmes",
+                    "personalityType":"The Logician (INTP)",
+
                     "profile_pic": "Matthew_Holmes",
                     "email": "matthew.holmes@showpad.com",
                     "linkedin": "www.linkedin.com/in/matthew-holmes-1ab847165/",
@@ -107,6 +115,7 @@
             "employees": [
                 {
                     "name": "Elli Seo",
+                    "personalityType": "The Campaigner (ENFP-A)",
                     "profile_pic": "Elli_Seo",
                     "email": "elli.seo@showpad.com",
                     "linkedin": "www.linkedin.com/in/elliseo",
@@ -126,6 +135,8 @@
                 },
                 {
                     "name": "Aaromal Syam",
+                    "personalityType":"The Commander (ENTJ-A)",
+
                     "profile_pic": "Aaromal_Syam",
                     "email": "aaromal.syam@showpad.com",
                     "linkedin": "www.linkedin.com/in/aaromalsyam",
@@ -145,6 +156,7 @@
                 },
                 {
                     "name": "Michael Garrido",
+                    "personalityType":"The Protagonist (ENFJ-A)",
                     "profile_pic": "Michael_Garrido",
                     "email": "michael.garrido@showpad.com",
                     "linkedin": "www.linkedin.com/in/garridomichael/",
@@ -170,6 +182,7 @@
             "employees": [
                 {
                     "name": "Netta Szabo",
+                    "personalityType":"",
                     "profile_pic": "Netta_Szabo",
                     "email": "netta.szabo@showpad.com",
                     "linkedin": "www.linkedin.com/in/netta-szabo/",
@@ -189,6 +202,7 @@
                 },
                 {
                     "name": "Bram Hornsby",
+                    "personalityType":"",
                     "profile_pic": "Bram_Hornsby",
                     "email": "bram.hornsby@showpad.com",
                     "linkedin": "www.linkedin.com/in/bram-hornsby-b6555817/",
@@ -208,6 +222,7 @@
                 },
                 {
                     "name": "Pieter Desaeger",
+                    "personalityType":"",
                     "profile_pic": "Pieter_Desaeger",
                     "email": "pieter.desaeger@showpad.com",
                     "linkedin": "www.linkedin.com/in/pieterdesaeger/",
@@ -227,6 +242,7 @@
                 },
                 {
                     "name": "Paul Batten",
+                    "personalityType":"",
                     "profile_pic": "Paul_Batten",
                     "email": "paul.batten@showpad.com",
                     "linkedin": "www.linkedin.com/in/paulbatten1/",
@@ -246,6 +262,7 @@
                 },
                 {
                     "name": "Koen Bogaert",
+                    "personalityType":"",
                     "profile_pic": "Koen_Bogaert",
                     "email": "koen.bogaert@showpad.com",
                     "linkedin": "www.linkedin.com/in/koenbogaert/",
@@ -265,6 +282,7 @@
                 },
                 {
                     "name": "Lucie Debouver",
+                    "personalityType":"",
                     "profile_pic": "Lucie_Debouver",
                     "email": "lucie.debouver@showpad.com",
                     "linkedin": "www.linkedin.com/in/lucie-debouver/",
@@ -284,6 +302,7 @@
                 },
                 {
                     "name": "Frederik Demets",
+                    "personalityType":"",
                     "profile_pic": "Frederik_Demets",
                     "email": "frederik.demets@showpad.com",
                     "linkedin": "www.linkedin.com/in/frederikdemets/",

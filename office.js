@@ -1,7 +1,7 @@
-var queryURL = "https://api.myjson.com/bins/15zp2e";
+var queryURL = "https://api.myjson.com/bins/197wvm";
 var jsonTree;
 var listQuestions
-var listOfQuestions = ["LinkedIn:","Hometown:","Birthday:","Favorite Movie:","Favorite Pastime:","Favorite Travel Destination:","Favorite 90's Jam:","If you were stranded on an island, what 2 things would you want with you?:","If you could be a sandwich, what sandwich would you be and why? (one sentence):","If you could be one person for an entire day (dead or alive), who would it be and why? (one sentence):","Do you have any skills or talents that most people don’t know about?:","What is one thing that annoys you the most?:","Fun Fact about yourself:"]
+var listOfQuestions = ["LinkedIn:","Hometown:","Birthday:","Favorite Movie:","Favorite Pastime:","Favorite Travel Destination:","Favorite 90's Jam:","If you were stranded on an island, what 2 things would you want with you?:","If you could be a sandwich, what sandwich would you be and why? (one sentence):","If you could be one person for an entire day (dead or alive), who would it be and why? (one sentence):","Do you have any skills or talents that most people don’t know about?:","What is one thing that annoys you the most?:","Fun Fact about yourself:", "Personality Type:"]
 
 
 $.ajax({
@@ -37,6 +37,14 @@ $.ajax({
     let ul = $("<ul>").addClass("about");
 
     //about 
+    let li14 = $("<li>");
+    if(officeEmployees[i].personalityType != ""){
+       
+        let b14 = $("<b>").html(listOfQuestions[13]+"&nbsp;");
+        li14.append(b14);
+        li14.append(officeEmployees[i].personalityType);
+    }
+    
     let li1 = $("<li>");
     let b1 = $("<b>").html(listOfQuestions[0]+"&nbsp;");
     li1.append(b1);
@@ -91,6 +99,9 @@ $.ajax({
     li13.append(b13);
     li13.append(officeEmployees[i].fun_fact);
 
+    if(officeEmployees[i].personalityType != ""){
+    ul.append(li14);
+    }
     ul.append(li1);
     ul.append(li2);
     ul.append(li3);
